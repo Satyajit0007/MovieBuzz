@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+.body{
+    background-image: url('http://pm1.narvii.com/7464/61004fad4d599c33a05c09518f2bf95ef2626020r1-1080-600v2_uhq.jpg');
+    background-blend-mode: color-burn;
+    height: 100vh;
+
+
+
+}
+
+#navbar{
+    background-color: rgb(11, 11, 149);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#add-money{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    display: grid;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    grid-gap:10px;
+    padding:40px;
+    
+    
+}
+#add-money input{
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    font-size: 17px;
+}
+#add-money button{
+   height: 30px;
+   border-radius: 6px;
+   background-color: blue;
+   color: white;
+   border: none;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+}
+#add-money a{
+    background-color: rgb(4, 138, 255);
+    height: 30px;
+    border-radius: 6px;
+    color: rgb(247, 253, 255);
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+}

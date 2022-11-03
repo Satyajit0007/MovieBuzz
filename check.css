@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+#navbar{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 13px;
+}
+#user-detail{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    grid-gap:10px;
+    padding:10px;
+    
+}
+#user-detail input{
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    font-size: 17px;
+}
+#user-detail button{
+   height: 30px;
+   border-radius: 6px;
+   background-color: blue;
+   color: white;
+   border: none;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+   width: 100px;
+   
+}
+
+#movie{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 30px;
+}
